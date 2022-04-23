@@ -1,0 +1,55 @@
+.nav-icon{
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.nav-content {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background: var(--color-primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.search-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav-text{
+  padding-left: 1rem;
+}
+.searchbox-content{
+  text-align: center;
+  margin-top: 1rem;
+}
+.search-icon{
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.search-icons{
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+input {
+  padding: 1rem;
+  width: 50%;
+  border-radius: 0.5rem;
+  background: var(--color-primary);
+  border: 2px solid var(--color-primary-variant);
+  color: var(--color-white);
+}
+.card-section{
+  text-align: center;
+}
+.card{
+  width: 50%;
+  border-radius: 0.5rem;
+  border: 2px solid var(--color-white);
+  margin-top: 1rem;
+  background: var(--color-primary-variant);
+}
+
+.card:hover{
+  background: transparent;
+  border-color: var(--color-primary-variant);
+}
